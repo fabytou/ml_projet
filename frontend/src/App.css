@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+  }
+  
+  .homepage, .resultpage, .prediction-list {
+    background: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 5px;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  
+  th, td {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f9f9f9;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+  
+  button.delete {
+    background: #FF6347;
+  }
+  
+  button.delete:hover {
+    background: #FF4500;
+  }
+  

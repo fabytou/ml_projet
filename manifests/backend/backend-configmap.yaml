@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: devops
+data:
+  MYSQL_DATABASE: "ml_db"
+  FLASK_ENV: "development"

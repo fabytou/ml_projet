@@ -1,0 +1,4 @@
+apiVersion: v1
+kind: devops
+metadata:
+  name: devops
